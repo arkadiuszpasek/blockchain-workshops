@@ -1,0 +1,1 @@
+source .env && sui client call --function transfer_sui_direct --module send_tokens --package 0x491a2fb5081a86edfe3e4c88e22fd3bc527f464a781bd3c92d16729d9414b809 --args $RECIPIENT_ADDR $COIN_ID 2 --gas-budget 10000000
