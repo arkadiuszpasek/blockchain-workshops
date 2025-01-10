@@ -1,0 +1,6 @@
+
+
+## Build
+```
+sui client build
+```

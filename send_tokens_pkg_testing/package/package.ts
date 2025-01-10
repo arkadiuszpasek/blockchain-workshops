@@ -19,7 +19,11 @@ export namespace SendTokensPkg {
       tx.pure.id(coinId),
       tx.pure.u64(amount),
     ];
-    logger.debug(`transferSuiDirect, target: ${target}, arguments: ${args}`);
+    logger.debug(
+      `transferSuiDirect, coinId: ${coinId}, recipient: ${recipientAddress}, amount: ${amount}, target: ${target}, arguments: ${JSON.stringify(
+        args
+      )}`
+    );
     return tx.moveCall({
       target,
       arguments: args,
