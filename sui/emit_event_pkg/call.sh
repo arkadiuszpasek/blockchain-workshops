@@ -1,0 +1,1 @@
+sui client call --function emit_event --module emit_event --package 0x3b328e80a5b47a72b1abc5c17c0bf16ea00acb3e9493bd7d31bcf8575d611d6f --args "A" --gas-budget 10000000
